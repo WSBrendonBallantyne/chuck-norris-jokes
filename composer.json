@@ -1,0 +1,27 @@
+{
+	"name": "wsbrendonballantyne/chuck-norris-jokes",
+	"description": "Create random Chuck Norris jokes",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "WSBrendonBallantyne",
+			"email": "brendon@shipwebsource.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"wsBrendonBallantyne\\ChuckNorrisJokes\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"wsBrendonBallantyne\\ChuckNorrisJokes\\Tests\\": "tests"
+		}
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.5"
+	},
+	"version": "dev-main"
+}
